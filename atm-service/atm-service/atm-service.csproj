@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="atmDispenser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="atmDispenser\" />
+  </ItemGroup>
 </Project>

@@ -20,4 +20,10 @@
   <ItemGroup>
     <ProjectReference Include="..\atm-service\atm-service.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="atmDispenserTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="atmDispenserTests\" />
+  </ItemGroup>
 </Project>
